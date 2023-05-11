@@ -1,3 +1,30 @@
+:root{
+    --color-primary:#2584ff;
+    --color-secondary:#00d9ff;
+    --color-accent:#ff3400;
+    --color-headings:#210e6b;
+    --color-body:#918ca4;
+}
+
+/*.box{
+    background-color: var(--color-primary);
+    width: 100px;
+    height: 100px;
+}*/
+
+/*Typografy*/
 body{
-    background: gold;
+    font-family: Inter;
+    color: var(--color-body);
+}
+h1, h2, h3 {
+    color: var(--color-headings);
+}
+
+@media screen and (min-width:1024px){
+    body{
+        font-size: 1.8rem;
+        background-color: aquamarine;
+    }
+
 }
