@@ -101,4 +101,17 @@ a {
     }
 }
     
+.icon-primary{
+    fill: var(--color-primary);
+}
 
+.icon-conteiner{
+    background:navy ;
+    width: 164px;
+    height: 164px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
