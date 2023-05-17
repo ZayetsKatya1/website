@@ -115,3 +115,25 @@ a {
     justify-content: center;
     
 }
+/*buttons*/
+.btn{
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+}
+
+.btn--primary{
+    background: var(--color-primary);
+    color: #fff;
+}
+.btn--secondary{
+    background: var(--color-secondary);
+    color: #fff;
+}
+.btn--accent{
+    background: var(--color-accent);
+    color: #fff;
+}
