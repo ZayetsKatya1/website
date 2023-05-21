@@ -4,6 +4,8 @@
     --color-accent:#ff3400;
     --color-headings:#210e6b;
     --color-body:#918ca4;
+    --color-border:#ccc;
+    --border-radius:30px;
 }
 
 /*.box{
@@ -137,3 +139,43 @@ a {
     background: var(--color-accent);
     color: #fff;
 }
+
+/*input*/
+
+.input{
+    padding:1.5rem 3.5rem;
+    border:1px solid #ccc;
+    border-radius:30px;
+    outline:0;
+    color:var( --color-headings);
+    font-size:2rem;
+
+}
+.input-group{
+    border:1px solid #ccc;
+    border-radius:30px;
+    display:flex;
+
+}
+
+
+.input-group .input{
+    border:0;
+    flex-grow:1;
+
+}
+
+.input-group .btn{
+    margin:5px;
+}
+
+::placeholder{
+    color:#c5c0d7;
+}
+
+@media screen and (min-width:1024px){
+    .input{
+        font-size:1.5rem;
+    }
+}
+
