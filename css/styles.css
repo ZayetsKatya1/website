@@ -26,7 +26,7 @@ h1, h2, h3 {
 @media screen and (min-width:1024px){
     body{
         font-size: 1.8rem;
-        background-color: aquamarine;
+       
     }
 
 }
@@ -177,5 +177,25 @@ a {
     .input{
         font-size:1.5rem;
     }
+}
+
+/*cards*/
+.card{
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+
+}
+.card__header, .card__body{
+    padding: 2rem 3rem;
+}
+.card--primary.card__header{
+    background: var(--color-primary);
+    color: #ccc;
+
+}
+.class--secondary.card__header{
+    background: var(--color-secondary);
+    color: #ccc;
 }
 
