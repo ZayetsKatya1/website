@@ -109,7 +109,7 @@ a {
 }
 
 .icon-conteiner{
-    background:navy ;
+  /*  background:navy ;*/
     width: 164px;
     height: 164px;
     border-radius: 100%;
