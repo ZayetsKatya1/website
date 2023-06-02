@@ -571,3 +571,30 @@ bottom: 60px;
         }
         
     }
+
+    /*Hero*/
+    .hero{
+        border: none;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+
+    }
+
+    .hero__tagline{
+        font-size: 2rem;
+        color: #b9c3cf;
+        letter-spacing: 1px;
+        margin: 2rem;
+    }
+    .hero__image{
+        width: 100%;
+    }
+
+   @media screen and (min-width:768px) {
+        .hero{
+            padding-top: 0;
+        }
+        .hero__content{
+            text-align: left;
+            align-self: center;
+        }
+    }
